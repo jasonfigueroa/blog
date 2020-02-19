@@ -30,9 +30,14 @@ twitter_username: jasonfigueroa_
 github_username:  jasonfigueroa
 
 # Build settings
-theme: minima
+# theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  # - jekyll-include-cache
+
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +58,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# defaults:
+#   -scope:
+#     path: ""
+#   values:
+#     layout: single
+#     author_profile: true
+#     read_time: true
+#     related: true
