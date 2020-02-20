@@ -22,7 +22,20 @@ include:
   - _pages
 
 defaults:
+  # all
   - scope:
       path: ""
     values:
       layout: single
+      author_profile: false # this was enabled but on narrow view would display a follow button
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
+  - scope:
+      type: posts
+    values:
+      toc: true
+      toc_label: "Contents"
+      read_time: false
+      comments: false
