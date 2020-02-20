@@ -9,8 +9,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: jasonfigueroa_
-github_username:  jasonfigueroa
+# twitter_username: jasonfigueroa_
+# github_username:  jasonfigueroa
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -20,6 +20,16 @@ plugins:
 
 include:
   - _pages
+  - assets
+
+author:
+  name   : "Jason Figueroa"
+  avatar : "/assets/images/headshot.png"
+  bio    : "I'm a naturally curious computer programmer based near Nashville, TN."
+  location: "Clarksville, TN"
+  github : jasonfigueroa
+  linkedin: jason-figueroa-b59a3798
+  email  : jason.figueroa2@gmail.com
 
 defaults:
   # all
@@ -27,7 +37,7 @@ defaults:
       path: ""
     values:
       layout: single
-      author_profile: false # this was enabled but on narrow view would display a follow button
+      author_profile: true # this was enabled but on narrow view would display a follow button
       class: wide
       title: " "
       title_separator: "|"
