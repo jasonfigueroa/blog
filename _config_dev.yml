@@ -30,10 +30,10 @@ author:
       url: "https://twitter.com/jasonfigueroa_"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: https://linkedin.com/jason-figueroa-b59a3798
+      url: "https://linkedin.com/in/jason-figueroa-b59a3798/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/jasonfigueroa
+      url: "https://github.com/jasonfigueroa"
     - label: "Email"
       icon: "far fa-fw fa-envelope"
       url: "mailto:jason.figueroa2@gmail.com"
@@ -45,10 +45,10 @@ footer:
       url: "https://twitter.com/jasonfigueroa_"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: https://linkedin.com/jason-figueroa-b59a3798
+      url: "https://linkedin.com/in/jason-figueroa-b59a3798/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/jasonfigueroa
+      url: "https://github.com/jasonfigueroa"
     - label: "Email"
       icon: "far fa-fw fa-envelope"
       url: "mailto:jason.figueroa2@gmail.com"
